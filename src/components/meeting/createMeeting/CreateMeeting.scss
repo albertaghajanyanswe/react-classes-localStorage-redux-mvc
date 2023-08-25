@@ -1,0 +1,112 @@
+@import '../../../assets/styles/variables.scss';
+
+.create-modal-container {
+  .ant-modal {
+    .ant-modal-content {
+      .ant-modal-header {
+        background-color: $default-shadow;
+        .ant-modal-title {
+          color: white;
+        }
+      }
+
+      // .ant-modal-body {
+      //   .ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+      //     border: 1px solid;
+      //     border-color: $default-shadow;
+      // }
+      //   input:hover {
+      //     border: 1px solid;
+      //     border-color: $default-shadow;
+      //   }
+      //   input:focus-within {
+      //     border: 1px solid;
+      //     border-color: $default-shadow;
+      //   }
+      //   textarea:hover {
+      //     border: 1px solid;
+      //     border-color: $default-shadow;
+      //   }
+      //   textarea:focus-within {
+      //     border: 1px solid;
+      //     border-color: $default-shadow;
+      //   }
+      // }
+      .ant-modal-close {
+        color: white;
+      }
+
+      .ant-modal-footer {
+        .ant-btn {
+          border-color: $default-shadow;
+          color: $default-shadow;
+        }
+        .ant-btn-primary {
+          background-color: $default-shadow;
+          color: white;
+        }
+        .ant-btn:hover, :focus-within {
+          border-color: $default-shadow;
+          border-radius: 1px solid $default-shadow;
+        }
+        .ant-btn-primary:hover, :focus-within {
+          color: white;
+        }
+      }
+    }
+  }
+  .ant-row {
+    display: block;
+  }
+  .ant-picker {
+    width: 100%;
+  }
+
+  .form-footer {
+    .ant-row {
+      width: 100%;
+      .ant-col {
+        width: 100%;
+        .ant-form-item-control-input-content {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+    .default-btn {
+      border-color: $default-shadow;
+      color: $default-shadow;
+    }
+
+    .primary-btn {
+      background-color: $default-shadow;
+      color: white;
+    }
+
+    .primary-btn:hover {
+      border-color: $default-shadow;
+      color: white;
+    }
+
+    .primary-btn:focus-within {
+      border-color: $default-shadow;
+      color: white;
+    }
+
+    .default-btn:hover {
+      border-color: $default-shadow;
+      border-radius: 1px solid $default-shadow;
+      color: $default-shadow;
+    }
+
+    .default-btn:focus-within {
+      border-color: $default-shadow;
+      border-radius: 1px solid $default-shadow;
+      color: $default-shadow;
+    }
+
+  }
+
+
+}

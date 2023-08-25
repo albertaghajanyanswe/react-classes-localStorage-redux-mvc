@@ -1,0 +1,81 @@
+@import './App.scss';
+@import '~antd/dist/antd.css';
+@import './components/signin/SignIn.scss';
+@import './components/meeting/Meeting.scss';
+@import './components/signup/SignUp.scss';
+@import './components/meeting/createMeeting/CreateMeeting.scss';
+@import './routers/MLoggedInPage.scss';
+@import '~react-toastify/dist/ReactToastify.css';
+@import './assets/styles/variables.scss';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  #root {
+    height: 100%;
+    .spin-wrapper {
+      height: 100%;
+      .ant-spin-container {
+        height: 100%;
+      }
+    }
+  }
+}
+
+#root {
+  .ant-spin-nested-loading .ant-layout-has-sider {
+    min-height: 100%;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Antd styles */
+.default-border-styles {
+  .ant-select-selector:hover {
+    border: 1px solid;
+    border-color: $default-shadow!important;
+  }
+  .ant-select-selector:focus-within {
+    border: 1px solid;
+    border-color: $default-shadow!important;
+  }
+}
+
+.default-border-styles:hover {
+  border: 1px solid;
+  border-color: $default-shadow;
+}
+
+.default-border-styles:focus-within {
+  border: 1px solid;
+  border-color: $default-shadow;
+}
+
+.ant-picker-range .ant-picker-active-bar {
+  background: rgba(46,222,183,.8);
+}
+
+.ant-picker-focused {
+  border-color: rgba(46,227,183,.8);
+}
+
+.ant-tag {
+  margin-top: 10px;
+}
+
+.ant-card-actions > li > span a:not(.ant-btn):hover, .ant-card-actions > li > span > .anticon:hover {
+  color: rgba(46,227,183,.8);
+}
+
+.site-layout .site-layout-background {
+  min-height: auto!important;
+}

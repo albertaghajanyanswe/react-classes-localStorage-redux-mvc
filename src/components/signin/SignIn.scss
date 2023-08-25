@@ -1,0 +1,28 @@
+.login-container {
+  background-image: url('../../assets/images/login-bg.jpg');
+  height: 100%;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 350px;
+
+  .login-content {
+    box-shadow: 4px 4px 4px 1px #404040;
+
+    justify-content: center;
+    margin: auto;
+    background-color: #f9f9f9;
+    padding: 5% 0;
+    width: 30%;
+    align-self: center;
+    text-align: -webkit-center;
+    border-radius: 5px;
+    .ant-form {
+      width: 80%;
+    }
+    .ant-row {
+      display: block;
+    }
+  }
+}
